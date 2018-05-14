@@ -12,9 +12,9 @@ img {
 }
 
 figcaption {
+  left: 1.2rem;
   position: absolute;
   top: 0.8rem;
-  left: 1.2rem;
 }
 
 main section:nth-of-type(2n) figure {
@@ -22,6 +22,10 @@ main section:nth-of-type(2n) figure {
 }
 
 /* Classes that directly impact element Layout */
+
+.clear-fix {
+  clear: both;
+}
 
 .pull-left {
   float: left;
