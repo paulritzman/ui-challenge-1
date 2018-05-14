@@ -1,7 +1,18 @@
-figure {
+/* figure {
   border: 1px solid #777;
-}
+} */
 
 figcaption {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
+
+img {
+  border: 1px solid #777;
+  border-bottom: none;
+}
+
+footer img {
+  border-bottom: 1px solid #777;
+}
+
+/* Classes which impact general styling or individual element layout */

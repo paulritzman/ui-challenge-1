@@ -13,6 +13,20 @@ img {
 
 figcaption {
   position: absolute;
-  top: 17%;
-  left: 4%;
+  top: 0.8rem;
+  left: 1.2rem;
+}
+
+main section:nth-of-type(2n) figure {
+  width: 50%;
+}
+
+/* Classes that directly impact element Layout */
+
+.pull-left {
+  float: left;
+}
+
+.fifty-percent {
+  width: 50%;
 }
