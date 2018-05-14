@@ -28,6 +28,42 @@ figcaption {
 main section:nth-of-type(2n) figure {
   width: 50%;
 }
+.fifty-percent {
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  aside figure {
+    float: left;
+    height: 68.7rem;
+    width: 20%;
+  }
+
+  aside img {
+    height: 100%;
+  }
+
+  main figure:nth-of-type(2n) {
+    float: left;
+    width: 40%;
+  }
+
+  main figure:nth-of-type(3n) {
+    float: left;
+    width: 40%;
+  }
+
+  section {
+    width: 80%;
+  }
+
+  section figure {
+    width: 30%;
+  }
+
+  .thirty-percent {
+    width: 30%;
+  }
+}
 
 /* Classes that directly impact element Layout */
 
@@ -39,6 +75,3 @@ main section:nth-of-type(2n) figure {
   float: left;
 }
 
-.fifty-percent {
-  width: 50%;
-}
