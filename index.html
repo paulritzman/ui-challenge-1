@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>UI Challenge 1</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/base.css" />
     <link rel="stylesheet" type="text/css" href="styles/layout.css" />
     <link rel="stylesheet" type="text/css" href="styles/modules.css" />
@@ -9,51 +10,60 @@
   <body>
     <header>
       <div>
-        <h1>mobile</h1>
-        <p>480px - 768px</p>
+        <h1 class="pull-left">mobile:</h1>
+        <p class="pull-left">480px - 768px</p>
       </div>
       <div>
-        <h1>desktop</h1>
-        <p>768px - 960px</p>
+        <h1 class="pull-left">desktop</h1>
+        <p class="pull-left">768px - 960px</p>
       </div>
     </header>
-    <main>
+    <main class="clear-fix">
       <figure>
         <img src="http://via.placeholder.com/480x75" />
         <figcaption>a</figcaption>
       </figure>
-      <figure>
-        <img src="http://via.placeholder.com/480x150" />
-        <figcaption>b</figcaption>
-      </figure>
-      <figure>
-        <img src="http://via.placeholder.com/480x125" />
-        <figcaption>c</figcaption>
-      </figure>
-      <figure>
-        <img src="http://via.placeholder.com/480x125" />
-        <figcaption>d</figcaption>
-      <figure>
-        <img src="http://via.placeholder.com/240x250" />
-        <figcaption>e</figcaption>
-      </figure>
-      <figure>
-        <img src="http://via.placeholder.com/240x250" />
-        <figcaption>f</figcaption>
-      </figure>
-      <figure>
-        <img src="http://via.placeholder.com/240x250" />
-        <figcaption>g</figcaption>
-      </figure>
-      <figure>
-        <img src="http://via.placeholder.com/240x250" />
-        <figcaption>h</figcaption>
-      </figure>
+      <section>
+        <aside>
+          <figure>
+            <img src="http://via.placeholder.com/480x150" />
+            <figcaption>b</figcaption>
+          </figure>
+        </aside>
+        <section>
+        <figure>
+          <img src="http://via.placeholder.com/480x125" />
+          <figcaption>c</figcaption>
+        </figure>
+        <figure>
+          <img src="http://via.placeholder.com/480x125" />
+          <figcaption>d</figcaption>
+        </figure>
+        </section>
+        <section>
+          <figure class="pull-left fifty-percent thirty-percent">
+            <img src= "http://via.placeholder.com/240x250" />
+            <figcaption>e</figcaption>
+          </figure>
+          <figure class="pull-left fifty-percent thirty-percent">
+            <img src="http://via.placeholder.com/240x250" />
+            <figcaption>f</figcaption>
+          </figure>
+          <figure class="pull-left fifty-percent thirty-percent">
+            <img src="http://via.placeholder.com/240x250" />
+            <figcaption>g</figcaption>
+          </figure>
+          <figure class="pull-left fifty-percent thirty-percent">
+            <img src="http://via.placeholder.com/240x250" />
+            <figcaption>h</figcaption>
+          </figure>
+        </section>
+      </section>
     </main>
     <footer>
-      <figure>
+      <figure class="clear-fix">
         <img src="http://via.placeholder.com/480x80" />
-        <figcaption>h</figcaption>
+        <figcaption>i</figcaption>
       </figure>
     </footer>
   </body>

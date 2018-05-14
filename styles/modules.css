@@ -1,0 +1,24 @@
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+figcaption {
+  font-size: 1.5rem;
+}
+
+img {
+  border: 1px solid #777;
+  border-bottom: none;
+}
+
+footer img {
+  border-bottom: 1px solid #777;
+}
+
+/* Classes which impact general styling or individual element layout */
